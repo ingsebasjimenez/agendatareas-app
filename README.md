@@ -1,50 +1,36 @@
-# Welcome to your Expo app 👋
+# 📋 AgendaTareas
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Aplicación móvil de gestión de tareas construida con **React Native** y **Expo**. Permite crear tareas con nivel de prioridad y fecha límite, y visualizarlas en un calendario mensual con código de colores.
 
-## Get started
+## ✨ Funcionalidades
 
-1. Install dependencies
+- ✅ Crear, completar y eliminar tareas
+- 🎯 Asignar prioridad (Alta / Media / Baja) a cada tarea
+- 📅 Fecha límite opcional para cada tarea
+- 🗓️ Vista de calendario: los días se pintan según la prioridad de las tareas pendientes
+- 📊 Barra de progreso con el conteo de tareas completadas
+- 💾 Persistencia local de datos con `AsyncStorage` (las tareas se guardan en el dispositivo)
 
-   ```bash
-   npm install
-   ```
+## 🛠️ Tecnologías
 
-2. Start the app
+- React Native
+- Expo (SDK 54) + Expo Router
+- AsyncStorage
+- react-native-calendars
+- @react-native-community/datetimepicker
 
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+## 🚀 Cómo ejecutarlo
 
 ```bash
-npm run reset-project
+git clone https://github.com/ingsebasjimenez/agendatareas-app.git
+cd agendatareas-app
+npm install
+npx expo start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Escanea el código QR con la app **Expo Go** (Android/iOS) para probarlo en tu celular.
 
-## Learn more
+## 👤 Autor
 
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Sebastián David Jiménez Sarmiento
+[GitHub](https://github.com/ingsebasjimenez) · [LinkedIn](https://linkedin.com/in/sebastián-jiménez-sarmiento-78a46a423)
